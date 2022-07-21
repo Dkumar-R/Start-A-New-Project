@@ -10,6 +10,7 @@ else {
   text = document.createTextNode(val);
 }
 
+//Local Storage strore
 //Add text to that created element
 
 divElem.appendChild(text);
