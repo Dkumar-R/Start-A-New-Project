@@ -260,7 +260,34 @@
 // let locked = 1;
 // let canChange = locked != 1 ? true : false;
 
-let speed = 180;
-let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
+// let speed = 180;
+// let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
 
-console.log(message);
+// console.log(message);
+
+// let colors = ['red', 'green', 'blue'];
+// let rgb = [...colors];
+// console.log(rgb);
+
+class Circle {
+  constructor(radius) {
+      this.radius = radius;
+  }
+  set diameter(value) {
+      this.radius = value / 2;
+      console.log('SET ', value);
+  }
+  get diameter() {
+      return this.radius * 2;
+  }
+}
+
+let circle = new Circle(300);
+
+let cloneCircle1 = Object.assign(circle, {
+  diameter: 500
+});
+
+let cloneCircle2 = {
+  ...circle
+};
