@@ -190,34 +190,49 @@
 //   console.log('You must be at least 18 to sign up.');
 // }
 
-let month = 6;
-let manthName;
+// let month = 6;
+// let manthName;
 
-if (month ==1 ) {
-  manthName = 'Jan';
-} else if (month == 2) {
-  monthName = 'Feb';
-}else if (month == 3) {
-  monthName = 'Mar';
-} else if (month == 4) {
-  monthName = 'Apr';
-} else if (month == 5) {
-  monthName = 'May';
-} else if (month == 6) {
-  monthName = 'Jun';
-} else if (month == 7) {
-  monthName = 'Jul';
-} else if (month == 8) {
-  monthName = 'Aug';
-} else if (month == 9) {
-  monthName = 'Sep';
-} else if (month == 10) {
-  monthName = 'Oct';
-} else if (month == 11) {
-  monthName = 'Nov';
-} else if (month == 12) {
-  monthName = 'Dec';
-} else {
-  monthName = 'Invalid month';
+// if (month ==1 ) {
+//   manthName = 'Jan';
+// } else if (month == 2) {
+//   monthName = 'Feb';
+// }else if (month == 3) {
+//   monthName = 'Mar';
+// } else if (month == 4) {
+//   monthName = 'Apr';
+// } else if (month == 5) {
+//   monthName = 'May';
+// } else if (month == 6) {
+//   monthName = 'Jun';
+// } else if (month == 7) {
+//   monthName = 'Jul';
+// } else if (month == 8) {
+//   monthName = 'Aug';
+// } else if (month == 9) {
+//   monthName = 'Sep';
+// } else if (month == 10) {
+//   monthName = 'Oct';
+// } else if (month == 11) {
+//   monthName = 'Nov';
+// } else if (month == 12) {
+//   monthName = 'Dec';
+// } else {
+//   monthName = 'Invalid month';
+// }
+// console.log(monthName);
+
+let weight = 80;
+let height = 1.72;
+let bmi = weight/(height*height);
+let weightStatus;
+if(bmi<18.5){
+  weightStatus = 'Underweitgh';
+} else if (bmi > 18.5 && bmi <=29.9){
+  weightStatus = 'Overweight';
+} else if (bmi >= 25 && bmi <= 20.9){
+  weightStatus = 'Obesity';
+} else{
+  weightStatus='Unloded'
 }
-console.log(monthName);
+console.log(weightStatus);
