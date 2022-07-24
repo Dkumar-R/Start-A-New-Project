@@ -145,15 +145,79 @@
 // let result = b && (10 /0 );
 // console.log(result);
 
-let title = 'JavaScript Awesome';
-title ||= 'untitled';
+// let title = 'JavaScript Awesome';
+// title ||= 'untitled';
 
 // console.log(title);
 
 
-let user = {
-    username: ['Satoshi']
-};
-user.nickname ??= 'anonymous';
+// let user = {
+//     username: ['Satoshi']
+// };
+// user.nickname ??= 'anonymous';
 
 // console.log(user);
+
+// let result = Math.pow(2,4);
+// console.log(result);
+
+// let result = 2**3;
+// console.log(result);
+
+// let x = 2;
+// x **= 4;
+// console.log(x);
+
+// let age = 16;
+// if (age >= 18) {
+//     console.log('You can sign up');
+// }
+
+// let age = 16;
+// let state = 'CA';
+
+// if (state == 'CA') {
+//     if (age >= 16) {
+//         console.log('You can drive.');
+//     }
+// }
+
+// let age = 19;
+
+// if (age >= 18) {
+//   console.log('You can sign up.');
+// } else {
+//   console.log('You must be at least 18 to sign up.');
+// }
+
+let month = 6;
+let manthName;
+
+if (month ==1 ) {
+  manthName = 'Jan';
+} else if (month == 2) {
+  monthName = 'Feb';
+}else if (month == 3) {
+  monthName = 'Mar';
+} else if (month == 4) {
+  monthName = 'Apr';
+} else if (month == 5) {
+  monthName = 'May';
+} else if (month == 6) {
+  monthName = 'Jun';
+} else if (month == 7) {
+  monthName = 'Jul';
+} else if (month == 8) {
+  monthName = 'Aug';
+} else if (month == 9) {
+  monthName = 'Sep';
+} else if (month == 10) {
+  monthName = 'Oct';
+} else if (month == 11) {
+  monthName = 'Nov';
+} else if (month == 12) {
+  monthName = 'Dec';
+} else {
+  monthName = 'Invalid month';
+}
+console.log(monthName);
