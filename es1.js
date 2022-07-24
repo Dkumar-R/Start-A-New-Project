@@ -222,17 +222,45 @@
 // }
 // console.log(monthName);
 
-let weight = 80;
-let height = 1.72;
-let bmi = weight/(height*height);
-let weightStatus;
-if(bmi<18.5){
-  weightStatus = 'Underweitgh';
-} else if (bmi > 18.5 && bmi <=29.9){
-  weightStatus = 'Overweight';
-} else if (bmi >= 25 && bmi <= 20.9){
-  weightStatus = 'Obesity';
-} else{
-  weightStatus='Unloded'
-}
-console.log(weightStatus);
+// let weight = 80;
+// let height = 1.72;
+// let bmi = weight/(height*height);
+// let weightStatus;
+// if(bmi<18.5){
+//   weightStatus = 'Underweitgh';
+// } else if (bmi > 18.5 && bmi <=29.9){
+//   weightStatus = 'Overweight';
+// } else if (bmi >= 25 && bmi <= 20.9){
+//   weightStatus = 'Obesity';
+// } else{
+//   weightStatus='Unloded'
+// }
+// console.log(weightStatus);
+
+// let age = 15;
+// let message;
+
+// age >= 16 ? (message = 'You can drive.') : (message = 'You cannot drive.');
+
+// console.log(message);
+
+// let age = 15;
+// let message;
+
+// message = age >= 16 ? 'You can drive.' : 'You cannot drive.';
+
+// console.log(message);
+
+// let authenticated =false;
+// let nextURL = authenticated
+// ? (alert('You will redirect to admin area'),'/admin')
+// :(alert('Access Denied'),'/403');
+// console.log(nextURL);
+
+// let locked = 1;
+// let canChange = locked != 1 ? true : false;
+
+let speed = 180;
+let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
+
+console.log(message);
