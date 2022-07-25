@@ -269,25 +269,42 @@
 // let rgb = [...colors];
 // console.log(rgb);
 
-class Circle {
-  constructor(radius) {
-      this.radius = radius;
-  }
-  set diameter(value) {
-      this.radius = value / 2;
-      console.log('SET ', value);
-  }
-  get diameter() {
-      return this.radius * 2;
-  }
+// class Circle {
+//   constructor(radius) {
+//       this.radius = radius;
+//   }
+//   set diameter(value) {
+//       this.radius = value / 2;
+//       console.log('SET ', value);
+//   }
+//   get diameter() {
+//       return this.radius * 2;
+//   }
+// }
+
+// let circle = new Circle(300);
+
+// let cloneCircle1 = Object.assign(circle, {
+//   diameter: 500
+// });
+
+// let cloneCircle2 = {
+//   ...circle
+// };
+
+let day = 3;
+let dayName;
+
+switch (day) {
+  case 1:
+    dayName = 'Sunday';
+    break;
+  case 2:
+    dayName = 'Monday';
+    break
+    
+  default:
+    dayName = 'Invalid Day'
 }
 
-let circle = new Circle(300);
-
-let cloneCircle1 = Object.assign(circle, {
-  diameter: 500
-});
-
-let cloneCircle2 = {
-  ...circle
-};
+console.log(dayName);
