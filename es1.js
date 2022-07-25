@@ -362,7 +362,21 @@
 // for (let i = 0; i <= 9; i++, sum += i);
 // console.log(sum);
 
-for (let i = 1; i < 5; i++) {
-    console.log(i);
-  }
+// for (let i = 1; i < 9; i++) {
+//     console.log(i);
+//   }
   
+// let x = 10;
+// let y = (x++, x + 1);
+
+// console.log(x, y);
+
+// That's like
+
+// let x = 10;
+// x++;
+// let y = x+ 1;
+// console.log(x.y);
+
+// ^ this code is not work 
+
