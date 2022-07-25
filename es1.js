@@ -292,19 +292,62 @@
 //   ...circle
 // };
 
-let day = 3;
-let dayName;
+// let day = 3;
+// let dayName;
 
-switch (day) {
+// switch (day) {
+//   case 1:
+//     dayName = 'Sunday';
+//     break;
+//   case 2:
+//     dayName = 'Monday';
+//     break
+
+//   default:
+//     dayName = 'Invalid Day'
+// }
+
+// console.log(dayName);
+
+let year = 1;
+let month = 1;
+let dayCount;
+
+switch (month) {
   case 1:
-    dayName = 'Sunday';
-    break;
-  case 2:
-    dayName = 'Monday';
-    break
-    
-  default:
-    dayName = 'Invalid Day'
-}
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 11:
+    dayCount = 31;
 
-console.log(dayName);
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    dayCount = 30;
+ 
+
+  case 2:
+    if ((year %4 == 0 && ! (year %100 == 0)) || year % 400 == 0) {
+      dayCount = 29;
+    }else{
+      dayCount = 28;
+    }
+
+    break;
+  default:
+    dayCount = 'Invaild Type';
+}
+switch (year) {
+  case 0:
+    dayCount = 'Invaild Type'
+    break;
+
+  default:
+    break;
+}
+console.log(dayCount);
