@@ -352,8 +352,12 @@
 // }
 // console.log(dayCount);
 
-let counter = 1;
-while (counter < 20) {
-  counter +=2;
-  console.log(counter);
-}
+// let counter = 1;
+// while (counter < 20) {
+//   counter +=2;
+//   console.log(counter);
+// }
+
+let sum = 0;
+for (let i = 0; i <= 9; i++, sum += i);
+console.log(sum);
