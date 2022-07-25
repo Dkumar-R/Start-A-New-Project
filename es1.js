@@ -358,6 +358,11 @@
 //   console.log(counter);
 // }
 
-let sum = 0;
-for (let i = 0; i <= 9; i++, sum += i);
-console.log(sum);
+// let sum = 0;
+// for (let i = 0; i <= 9; i++, sum += i);
+// console.log(sum);
+
+for (let i = 1; i < 5; i++) {
+    console.log(i);
+  }
+  
