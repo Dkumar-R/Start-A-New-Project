@@ -41,7 +41,7 @@ function Programer(name,salary,exprience,Languge) {
     Employee.call(this,name,salary,exprience);
     this.Languge = Languge;
     this.Run = function(){
-        console.log(`My name is ${name} `)
+        console.log(`My name is ${name} `)  
     } 
 }
 
@@ -53,3 +53,4 @@ Programer.prototype.consteuctor = Programer;
 //the prototype
 let rohan=  new Programer("Rohan",2,0,"JavaScript");
 console.log(rohan);
+// 
