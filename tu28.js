@@ -53,4 +53,4 @@ Programer.prototype.consteuctor = Programer;
 //the prototype
 let rohan=  new Programer("Rohan",2,0,"JavaScript");
 console.log(rohan);
-// 
+// that is over come compltely ans most welcome
