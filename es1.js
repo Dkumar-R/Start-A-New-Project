@@ -145,15 +145,238 @@
 // let result = b && (10 /0 );
 // console.log(result);
 
-let title = 'JavaScript Awesome';
-title ||= 'untitled';
+// let title = 'JavaScript Awesome';
+// title ||= 'untitled';
 
 // console.log(title);
 
 
-let user = {
-    username: ['Satoshi']
-};
-user.nickname ??= 'anonymous';
+// let user = {
+//     username: ['Satoshi']
+// };
+// user.nickname ??= 'anonymous';
 
 // console.log(user);
+
+// let result = Math.pow(2,4);
+// console.log(result);
+
+// let result = 2**3;
+// console.log(result);
+
+// let x = 2;
+// x **= 4;
+// console.log(x);
+
+// let age = 16;
+// if (age >= 18) {
+//     console.log('You can sign up');
+// }
+
+// let age = 16;
+// let state = 'CA';
+
+// if (state == 'CA') {
+//     if (age >= 16) {
+//         console.log('You can drive.');
+//     }
+// }
+
+// let age = 19;
+
+// if (age >= 18) {
+//   console.log('You can sign up.');
+// } else {
+//   console.log('You must be at least 18 to sign up.');
+// }
+
+// let month = 6;
+// let manthName;
+
+// if (month ==1 ) {
+//   manthName = 'Jan';
+// } else if (month == 2) {
+//   monthName = 'Feb';
+// }else if (month == 3) {
+//   monthName = 'Mar';
+// } else if (month == 4) {
+//   monthName = 'Apr';
+// } else if (month == 5) {
+//   monthName = 'May';
+// } else if (month == 6) {
+//   monthName = 'Jun';
+// } else if (month == 7) {
+//   monthName = 'Jul';
+// } else if (month == 8) {
+//   monthName = 'Aug';
+// } else if (month == 9) {
+//   monthName = 'Sep';
+// } else if (month == 10) {
+//   monthName = 'Oct';
+// } else if (month == 11) {
+//   monthName = 'Nov';
+// } else if (month == 12) {
+//   monthName = 'Dec';
+// } else {
+//   monthName = 'Invalid month';
+// }
+// console.log(monthName);
+
+// let weight = 80;
+// let height = 1.72;
+// let bmi = weight/(height*height);
+// let weightStatus;
+// if(bmi<18.5){
+//   weightStatus = 'Underweitgh';
+// } else if (bmi > 18.5 && bmi <=29.9){
+//   weightStatus = 'Overweight';
+// } else if (bmi >= 25 && bmi <= 20.9){
+//   weightStatus = 'Obesity';
+// } else{
+//   weightStatus='Unloded'
+// }
+// console.log(weightStatus);
+
+// let age = 15;
+// let message;
+
+// age >= 16 ? (message = 'You can drive.') : (message = 'You cannot drive.');
+
+// console.log(message);
+
+// let age = 15;
+// let message;
+
+// message = age >= 16 ? 'You can drive.' : 'You cannot drive.';
+
+// console.log(message);
+
+// let authenticated =false;
+// let nextURL = authenticated
+// ? (alert('You will redirect to admin area'),'/admin')
+// :(alert('Access Denied'),'/403');
+// console.log(nextURL);
+
+// let locked = 1;
+// let canChange = locked != 1 ? true : false;
+
+// let speed = 180;
+// let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
+
+// console.log(message);
+
+// let colors = ['red', 'green', 'blue'];
+// let rgb = [...colors];
+// console.log(rgb);
+
+// class Circle {
+//   constructor(radius) {
+//       this.radius = radius;
+//   }
+//   set diameter(value) {
+//       this.radius = value / 2;
+//       console.log('SET ', value);
+//   }
+//   get diameter() {
+//       return this.radius * 2;
+//   }
+// }
+
+// let circle = new Circle(300);
+
+// let cloneCircle1 = Object.assign(circle, {
+//   diameter: 500
+// });
+
+// let cloneCircle2 = {
+//   ...circle
+// };
+
+// let day = 3;
+// let dayName;
+
+// switch (day) {
+//   case 1:
+//     dayName = 'Sunday';
+//     break;
+//   case 2:
+//     dayName = 'Monday';
+//     break
+
+//   default:
+//     dayName = 'Invalid Day'
+// }
+
+// console.log(dayName);
+
+// let year = 1;
+// let month = 1;
+// let dayCount;
+
+// switch (month) {
+//   case 1:
+//   case 3:
+//   case 5:
+//   case 7:
+//   case 8:
+//   case 10:
+//   case 11:
+//     dayCount = 31;
+
+//     break;
+//   case 4:
+//   case 6:
+//   case 9:
+//   case 11:
+//     dayCount = 30;
+ 
+
+//   case 2:
+//     if ((year %4 == 0 && ! (year %100 == 0)) || year % 400 == 0) {
+//       dayCount = 29;
+//     }else{
+//       dayCount = 28;
+//     }
+
+//     break;
+//   default:
+//     dayCount = 'Invaild Type';
+// }
+// switch (year) {
+//   case 0:
+//     dayCount = 'Invaild Type'
+//     break;
+
+//   default:
+//     break;
+// }
+// console.log(dayCount);
+
+// let counter = 1;
+// while (counter < 20) {
+//   counter +=2;
+//   console.log(counter);
+// }
+
+// let sum = 0;
+// for (let i = 0; i <= 9; i++, sum += i);
+// console.log(sum);
+
+// for (let i = 1; i < 9; i++) {
+//     console.log(i);
+//   }
+  
+// let x = 10;
+// let y = (x++, x + 1);
+
+// console.log(x, y);
+
+// That's like
+
+// let x = 10;
+// x++;
+// let y = x+ 1;
+// console.log(x.y);
+
+// ^ this code is not work 
+
